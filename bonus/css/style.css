@@ -20,6 +20,14 @@ body {
     font-weight: bold;
 }
 
+#menu {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #29b1dd;
+    color: white;
+    font-size: 20px;
+}
+
 /* tag container */
 
 #container {
