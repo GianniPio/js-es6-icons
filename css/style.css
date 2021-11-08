@@ -5,3 +5,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* tag for the element */
+
+.orange {
+    color: orange;
+}
+
+.green {
+    color: green;
+}
+
+.blue {
+    color: blue;
+}
