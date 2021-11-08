@@ -6,6 +6,38 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: grey;
+}
+
+/* tag container */
+
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: grey;
+}
+
+
+/* tag for the boxes */
+
+.box {
+    background-color: lightgray;
+    width: calc(100% / 5);
+    margin:40px 10px;
+    text-align: center;
+    padding: 0;
+    font-weight: bold;
+    padding: 10px 0;
+    border-radius: 20px;
+}
+
+.box > div {
+    font-size: 50px;
+}
+
 /* tag for the element */
 
 .orange {

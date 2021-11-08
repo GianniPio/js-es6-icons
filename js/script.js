@@ -8,7 +8,7 @@
 // 2. Stampo gli elementi richiesti dell'array (nome e icona) -> forEach
 
 // 3. Aggiungere la classe per il colore delle icone
-    
+
 
 // creazione array di oggetti
 const elements = [
@@ -134,11 +134,15 @@ elements.forEach((element) => {
     
     contenitore.innerHTML += 
     `
-    <div>
-        ${element.name}
+    <div class="box">
+        <div>
         <i class="${element.family} ${element.prefix + element.name} ${element.color}"></i>
+        </div>
+         <span>
+            ${element.name}
+        </span>   
+        
     </div>
-    
     `
 
 });
