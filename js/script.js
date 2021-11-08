@@ -112,3 +112,20 @@ const elements = [
 		color: 'blue'
 	}
 ];
+
+const contenitore = document.getElementById("container");
+
+
+
+elements.forEach((element) => {
+    
+    contenitore.innerHTML += 
+    `
+    <div>
+        ${element.name}
+        <i class="${element.family} ${element.prefix + element.name}"></i>
+    </div>
+    
+    `
+
+});
