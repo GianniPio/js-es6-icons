@@ -144,5 +144,9 @@ elements.forEach((element) => {
         
     </div>
     `
-
 });
+
+var selectedElement = document.forms.myForm.menu_elements.value;
+
+
+	console.log(selectedElement);
